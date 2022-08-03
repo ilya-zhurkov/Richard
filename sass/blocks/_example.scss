@@ -1,0 +1,35 @@
+.example {
+    padding-bottom: 162px;
+}
+.example__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 160px;
+
+    &:last-child{
+        margin-bottom: 0;
+    }
+    &:nth-child(even){
+        flex-direction: row-reverse;
+
+        .example__card-desc{
+            margin-left: 77px;
+        }
+    }
+
+    .title{
+        color: black;
+        margin-bottom: 22px;
+    }
+}
+.example__card-desc {
+    width: 330px;
+    margin-right: 82px;
+}
+.example__card-text {
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B;
+}

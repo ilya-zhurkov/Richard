@@ -1,0 +1,67 @@
+.header {
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #FFFFFF;
+    height: 100vh;
+}
+.header__top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 226px;
+}
+.logo {
+    margin-right: 665px;
+}
+.menu {
+    display: flex;
+}
+.menu__item + .menu__item{
+    margin-left: 15px;
+}
+.menu__link {
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.header__content {
+    margin-bottom: 207px;
+    position: relative;
+
+    &::before{
+        content: '';
+        position: absolute;
+        background: url('../img/picture/phone.png');
+        background-repeat: no-repeat;
+        width: 652px;
+        height: 680px;
+        top: -90%;
+        right: -5%;
+    }
+}
+.main-title {
+    font-size: 80px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+.subtitle {
+    font-size: 30px;
+    line-height: 44px;
+    margin-bottom: 25px;
+}
+.btn {
+    padding: 20px 40px;
+    background: #FC0A7E;
+    border-radius: 3px;
+
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.header__arrow {
+    height: 40px;
+    width: 9px;
+    margin-left: auto;
+    margin-right: auto;
+}

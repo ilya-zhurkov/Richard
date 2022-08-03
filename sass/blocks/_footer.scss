@@ -1,0 +1,25 @@
+.footer {
+    background: #1B1B1B;
+    padding-top: 20px;
+    padding-bottom: 69px;
+}
+.footer__img {
+    width: 136px;
+    height: 104px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 29px;
+}
+.footer__menu {
+    display: flex;
+    justify-content: center;
+}
+.footer__menu-item + .footer__menu-item{
+    margin-left: 30px;
+}
+.footer__menu-link {
+    font-family: 'Gothic A1';
+    font-size: 11px;
+    line-height: 20px;
+    color: #6B6B6B;
+}

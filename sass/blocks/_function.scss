@@ -1,0 +1,31 @@
+.function {
+    padding-top: 80px;
+    padding-bottom: 160px;
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 60px;
+
+    &:last-child{
+        margin-bottom: 0;
+    }
+    &:nth-child(even){
+        flex-direction: row-reverse;
+
+        .card__desc{
+            margin-left: 144px;
+        }
+    }
+
+    .title{
+        color: black;
+        margin-bottom: 22px;
+    }
+}
+.card__desc {
+    width: 306px;
+    margin-right: 195px;
+}

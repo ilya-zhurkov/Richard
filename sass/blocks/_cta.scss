@@ -1,0 +1,21 @@
+.cta {
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+    padding-top: 165px;
+    padding-bottom: 156px;
+}
+.cta__title {
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+
+    margin-bottom: 40px;
+}
+.cta__buttons {
+    display: flex;
+    justify-content: center;
+    
+    .btn + .btn{
+        margin-left: 15px;
+    }
+}

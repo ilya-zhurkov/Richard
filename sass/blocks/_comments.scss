@@ -1,0 +1,43 @@
+.comments {
+    text-align: center;
+    padding-bottom: 200px;
+}
+.slider-item {
+    width: 700px;
+    margin: 0 auto;
+}
+.slider-item__img {
+    width: 58px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 67px;
+}
+.slider-item__text{
+    font-size: 24px;
+    line-height: 40px;
+    color: #6B6B6B;
+    margin-bottom: 17px;
+}
+.slider-item__author-name {
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B;
+    margin-right: 70px;
+    position: relative;
+
+    &::before{
+        content: '';
+        position: absolute;
+        background: #D3D3D3;
+        height: 1px;
+        width: 30px;
+        top: 45%;
+        left: 125%;    
+    }
+}
+.slider-item__author-location {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B;
+}

@@ -1,0 +1,20 @@
+.achievements {
+    padding-bottom: 160px;
+}
+.achievements__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.achievements__card {
+    text-align: center;
+}
+.achievements__card-title {
+    font-size: 59px;
+    line-height: 90px;
+    color: #333333;
+}
+.achievements__card-text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
